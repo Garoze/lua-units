@@ -36,12 +36,3 @@ function lua.filter(array, callFunction)
     return filterResult
 end
 
-local testArray = {1,2,3,4,5,6,7,8,9,10}
-
-lua.print(
-    lua.filter(testArray,
-        function(n)
-            return n % 2 == 0
-        end
-    )
-)
