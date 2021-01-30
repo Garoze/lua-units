@@ -80,4 +80,3 @@ function lua.array(arrType, arrElements)
     },{ __call = function(self) return self.array end })
 end
 
-
