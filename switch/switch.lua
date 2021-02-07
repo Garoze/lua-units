@@ -21,8 +21,7 @@ function luaLib.default(f, ...)
     return { condition = nil, f = f, args = {...} }
 end
 
-return 
-{
+return {
     switch = luaLib.switch,
     case = luaLib.case,
     default = luaLib.default
